@@ -1,0 +1,12 @@
+nota1:int=int(input("Qual a sua nota? "))
+nota2:int=int(input("Qual a sua nota? "))
+média = nota1 + nota2 /2
+print (média)
+if média >= 7:
+    print("Aprovado")
+elif média <7 and média >4:
+    print("Recuperação")
+else:
+    print("não passou")
+
+print(nota1,nota2)
